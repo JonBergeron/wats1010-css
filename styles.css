@@ -1,6 +1,35 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body {
+	background-image: url("sand.jpg");
+}
 
-h1 {
-    color: green;
+aside.more-info img {
+	width:150px;
+	height:auto;
+}
+
+ul.info-links {
+    float: left;
+    margin: 0 40px 10px 10px
+}
+
+ul.social-links {
+    padding: 0px 0 20px 0;
+}
+
+ul.poem {
+    font: sans-serif;
+}
+
+ul.poem li {
+	list-style-type: none;
+}
+
+li.line-break {
+    margin: 0 0 15px 0;
+    border-bottom:1px solid #cccccc;
+    padding: 0px 0 0px 0;
+    padding: 0px 0 20px 0;
+
 }
