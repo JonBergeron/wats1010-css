@@ -44,6 +44,17 @@ ul.poem {
     line-height: 130%
 }
 
+ul.poem:first-child:first-letter{
+	float: left; 
+	color: black; 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+	font-family: Georgia; 
+	}
+
 ul.poem li {
 	list-style-type: none;
 }
